@@ -1,0 +1,105 @@
+
+ /*Button*/
+
+ .btn-login {
+   font-size: 0.9rem;
+   letter-spacing: 0.05rem;
+   padding: 0.75rem 1rem;
+ }
+ .showpass{
+   position: absolute;
+   right: 0;
+   top:1px;
+   padding: 7px 10px;
+   margin-right: 5px;
+   margin-top: 12px;
+   font-size: 14px;
+   font-weight: 600;
+   color: #2a4365;
+   background-color: #EDF2F7;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.label {
+   padding: 10px;
+   font-size: 28px;
+   margin-top: "60px";
+   margin-bottom: "40px";
+   font-family: Arial, Helvetica, sans-serif;
+   
+ }
+ 
+ .content-slots {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   min-height: 60px;
+ }
+ 
+ .slot-container {
+   height: 120px;
+     width: 200px;
+     border-radius: 20px;
+     margin-bottom: 6px;
+     justify-content: center;
+     align-items: center;
+     border: 2px solid #A7A7A7;
+     font-size: 17px;
+     box-shadow:  15px 10px 10px #ABD1FF
+    
+ }
+ 
+   
+
+ .seat-slot {
+   width: 60px;
+   flex-wrap: wrap;
+   margin: 10px;
+   border: 2px solid black;
+   border-radius: 10px;
+   padding: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: blue;
+   border-color: #7ed957;
+   background-color: #7ed957;  
+ }
+ 
+ .seat-slot input {
+   width: 100%;
+   color: red;
+ }
+ 
+ .flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+ }
+ 
+ .booking-container {
+   width: auto;
+   height: 100%;
+   border: 2px solid #ABD1FF;
+   border-radius: 10px;
+   padding: 10px;
+   box-shadow:  15px 10px 10px #ABD1FF,
+     -10px -10px 20px #ffffff;
+ }
+ 
+ .bold {
+   font-weight: 600;
+ }
+ 
+ .submit-btn button {
+   padding: 10px 20px;
+   background: none;
+   cursor: pointer;
+   border: 2px solid black;
+   border-radius: 5px;
+   margin-right: 10px;
+ }
+ 
+ .submit-btn button:hover {
+   background-color: coral;
+ }
