@@ -41,27 +41,6 @@ export default function Cards(props) {
     navigate("/login");
   };
 
-//   const refreshPage = ()=>{
-//     window.location.reload();
-//  };
-// (() => {
-//             if (window.localStorage) {
-  
-//                 // If there is no item as 'reload'
-//                 // in localstorage then create one &
-//                 // reload the page
-//                 if (!localStorage.getItem('reload')) {
-//                     localStorage['reload'] = true;
-//                     window.location.reload();
-//                 } else {
-  
-//                     // If there exists a 'reload' item
-//                     // then clear the 'reload' item in
-//                     // local storage
-//                     localStorage.removeItem('reload');
-//                 }
-//             }
-//         })();
         const [movieData, setmovieData] = useState({
           movie: "",
           timeSlot: "",
@@ -207,7 +186,6 @@ export default function Cards(props) {
     </div>
       <div className="d-grid gap-2 col-6 mx-auto mt-5 mb-4">
   <button className="btn" style={{ backgroundColor: "#C1163A", color: "white" }} onClick={logOut} type="button">LogOut</button>
-  {/* <button className="btn" style={{ backgroundColor: "white", color: "white" }} onClick={refreshPage} type="button">LogOut</button> */}
 
 
 </div>
