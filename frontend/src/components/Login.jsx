@@ -10,6 +10,8 @@ import { useCookies } from "react-cookie";
 
 const Login = () => {
 
+    
+    //Password HIDE & SHOW
     const [passShow,setPassShow] =useState(false);
 
     const [cookies] = useCookies([]);
@@ -25,6 +27,8 @@ const Login = () => {
     toast.error(error, {
       position: "bottom-right",
     });
+    
+    //FETCHING THE DATA FROM THE BACKEND
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
