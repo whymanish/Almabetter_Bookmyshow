@@ -7,6 +7,8 @@ import App from '../App.css';
 
 
 const Register = () => {
+  
+  //PASSWORD HIDE & SHOW
 
   const [passShow, setPassShow] = useState(false);
 
@@ -23,6 +25,8 @@ const Register = () => {
     toast.error(error, {
       position: "bottom-right",
     });
+  
+  //FETCHING THE DATA FROM BACKEND
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
