@@ -43,13 +43,6 @@ bookingRouter.post("/booking", (req, res, next) => {
     .catch((err) => console.log(err));
 });
 
-// extra bonus router added for deleting and empting the database
-bookingRouter.delete("/booking", (req, res, next) => {
-  // deleting all the last bookings and sending a 204 code and a message object as response
-  bookingsModel
-    .deleteMany({})
-    .then(() => res.status(204).send({ deleted: "Deleted" }))
-    .catch((err) => console.log(err));
-});
+
 
 module.exports = bookingRouter;
